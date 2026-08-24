@@ -7,3 +7,4 @@
   - [Database](./technical/tech-stack/database.md)
   - [ORM](./technical/tech-stack/orm.md)
   - [Authentication](./technical/tech-stack/authentication.md)
+  - [Deployment](./technical/tech-stack/deployment.md)
