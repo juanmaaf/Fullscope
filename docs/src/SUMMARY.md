@@ -8,3 +8,4 @@
   - [ORM](./technical/tech-stack/orm.md)
   - [Authentication](./technical/tech-stack/authentication.md)
   - [Deployment](./technical/tech-stack/deployment.md)
+  - [Package Manager](./technical/tech-stack/package-manager.md)
