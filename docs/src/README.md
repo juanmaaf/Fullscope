@@ -1,3 +1,0 @@
-# Fullscope documentation
-
-
