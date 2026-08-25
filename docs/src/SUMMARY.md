@@ -9,3 +9,4 @@
   - [Authentication](./technical/tech-stack/authentication.md)
   - [Deployment](./technical/tech-stack/deployment.md)
   - [Package Manager](./technical/tech-stack/package-manager.md)
+  - [API](./technical/tech-stack/api.md)
