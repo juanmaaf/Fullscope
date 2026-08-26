@@ -1,21 +1,9 @@
 {
-  "name": "Fullscope",
+  "name": "fullscope",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "11.24.0",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@11.24.0",
-  "type": "module"
+  "description": "The open-source net worth observatory. A full-picture view of your financial life.",
+  "author": "Juan Manuel Aneas Franco",
+  "license": "AGPL-3.0",
+  "private": true,
+  "packageManager": "pnpm@11.24.0"
 }
