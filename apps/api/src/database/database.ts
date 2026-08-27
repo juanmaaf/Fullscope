@@ -2,11 +2,25 @@ import 'dotenv/config';
 
 import { drizzle } from 'drizzle-orm/node-postgres';
 
-const databaseUrl = process.env.DATABASE_URL;
+const {
+  DATABASE_USER,
+  DATABASE_PASSWORD,
+  DATABASE_HOST,
+  DATABASE_NAME,
+} = process.env;
 
-if (!databaseUrl) {
-  throw new Error('DATABASE_URL environment variable is not defined');
+if (
+  !DATABASE_USER ||
+  !DATABASE_PASSWORD ||
+  !DATABASE_HOST ||
+  !DATABASE_NAME
+) {
+  throw new Error(
+    'Database environment variables are not fully configured',
+  );
 }
+
+const databaseUrl = `postgresql://${encodeURIComponent(DATABASE_USER)}:${encodeURIComponent(DATABASE_PASSWORD)}@${DATABASE_HOST}:5432/${DATABASE_NAME}`;
 
 export const database = drizzle({
   connection: {

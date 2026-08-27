@@ -5,5 +5,8 @@
   "author": "Juan Manuel Aneas Franco",
   "license": "AGPL-3.0",
   "private": true,
-  "packageManager": "pnpm@11.24.0"
+  "packageManager": "pnpm@11.24.0",
+  "scripts": {
+    "build": "pnpm --filter './apps/*' build"
+  }
 }
